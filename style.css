@@ -1,0 +1,106 @@
+.header {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    text-align: left;
+}
+
+.header li {
+    margin: 5px;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header li a {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+}
+
+.card0 img {
+    width: 100%;
+}
+
+.leftcolumn {
+    height: 100%;
+    width: 80%;
+    background: white;
+    margin: 40px;
+}
+
+.column {
+    margin: 0 15px 25px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24)
+}
+
+.rightcolumn {
+    width: 10%;
+    background: white;
+    float: right;
+}
+
+.rightcolumn .columns .card h3 {
+    width: auto;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.rightcolumn .columns .card .search {
+    width: auto;
+    margin-left: 20px;
+}
+
+.card {
+    background-color: rgb(240, 240, 240);
+    height: 100px;
+    width: 455px;
+    border-color: black;
+}
+
+.card1 {
+    background-color: rgb(240, 240, 240);
+    height: 200px;
+    width: 455px;
+    border-color: black;
+}
+
+.card1 h3 {
+    width: auto;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.card1 ul li {
+    list-style: none;
+    color: blue;
+}
+
+.card1 .boxes {
+    float: right;
+}
+
+.card2 {
+    background-color: rgb(240, 240, 240);
+    height: 150px;
+    width: 455px;
+    border-color: black;
+}
+
+.card2 h3 {
+    width: auto;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.card2 p {
+    width: auto;
+    margin-left: 20px;
+    justify-content: left;
+    margin-right: 10px;
+}
