@@ -27,16 +27,16 @@
     width: 100%;
 }
 
+.card0 h7 {
+    color: blue;
+}
+
 .leftcolumn {
     height: 100%;
     width: 80%;
     background: white;
-    margin: 40px;
-}
-
-.column {
-    margin: 0 15px 25px;
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24)
+    float: left;
+    margin-left: 70px;
 }
 
 .rightcolumn {
@@ -65,7 +65,7 @@
 
 .card1 {
     background-color: rgb(240, 240, 240);
-    height: 200px;
+    height: 150px;
     width: 455px;
     border-color: black;
 }
@@ -81,10 +81,6 @@
     color: blue;
 }
 
-.card1 .boxes {
-    float: right;
-}
-
 .card2 {
     background-color: rgb(240, 240, 240);
     height: 150px;
@@ -94,13 +90,13 @@
 
 .card2 h3 {
     width: auto;
-    margin-left: 20px;
+    margin-left: 30px;
     padding-top: 10px;
 }
 
 .card2 p {
     width: auto;
-    margin-left: 20px;
+    margin-left: 30px;
     justify-content: left;
-    margin-right: 10px;
+    margin-right: 30px;
 }
