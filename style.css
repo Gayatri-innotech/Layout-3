@@ -18,85 +18,81 @@
     color: white;
 }
 
-.container {
-    max-width: 1170px;
-    width: 100%;
+.gridcontainer {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 80%;
+    text-align: left;
 }
 
-.card0 img {
-    width: 100%;
+hr {
+    border-color: gainsboro;
 }
 
-.card0 h7 {
+.box {
+    max-width: 100%;
+    height: 250px;
+    background-color: rgb(240, 240, 240);
+}
+
+.search {
+    max-width: 80%;
+    background-color: rgb(240, 240, 240);
+    ;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.blogtxt {
+    text-align: left;
+    margin-left: 13px;
+}
+
+.sechbox {
+    width: 90%;
+}
+
+.txtbox {
+    display: flex;
+    justify-content: space-between;
     color: blue;
+    padding: 0px 12px 20px 12px;
 }
 
-.leftcolumn {
-    height: 100%;
-    width: 80%;
-    background: white;
-    float: left;
-    margin-left: 70px;
-}
-
-.rightcolumn {
-    width: 10%;
-    background: white;
-    float: right;
-}
-
-.rightcolumn .columns .card h3 {
-    width: auto;
-    margin-left: 20px;
-    padding-top: 10px;
-}
-
-.rightcolumn .columns .card .search {
-    width: auto;
-    margin-left: 20px;
-}
-
-.card {
+.cont {
+    text-align: left;
+    margin-top: 20px;
+    max-width: 80%;
     background-color: rgb(240, 240, 240);
-    height: 100px;
-    width: 455px;
-    border-color: black;
 }
 
-.card1 {
-    background-color: rgb(240, 240, 240);
-    height: 150px;
-    width: 455px;
-    border-color: black;
+.last {
+    padding: 0px 10px 10px 10px;
 }
 
-.card1 h3 {
-    width: auto;
-    margin-left: 20px;
-    padding-top: 10px;
+.inlasy {
+    padding: 10px;
 }
 
-.card1 ul li {
-    list-style: none;
-    color: blue;
+img {
+    width: 100%;
+    height: auto;
 }
 
-.card2 {
-    background-color: rgb(240, 240, 240);
-    height: 150px;
-    width: 455px;
-    border-color: black;
+.p {
+    color: black;
 }
 
-.card2 h3 {
-    width: auto;
-    margin-left: 30px;
-    padding-top: 10px;
-}
-
-.card2 p {
-    width: auto;
-    margin-left: 30px;
-    justify-content: left;
-    margin-right: 30px;
+@media (max-width: 767px) {
+    .gridcontainer {
+        grid-template-columns: 100%;
+    }
+    .cont {
+        max-width: 100%;
+    }
+    .search {
+        max-width: 100%;
+    }
 }
