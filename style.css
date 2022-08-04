@@ -47,11 +47,16 @@ hr {
 
 .blogtxt {
     text-align: left;
-    margin-left: 13px;
+    margin-left: 33px;
 }
 
-.sechbox {
-    width: 90%;
+.searchbox {
+    width: 80%;
+}
+
+button {
+    position: absolute;
+    margin-right: 20px;
 }
 
 .txtbox {
@@ -69,11 +74,11 @@ hr {
 }
 
 .last {
-    padding: 0px 10px 10px 10px;
+    padding: 0px 15px 15px 15px;
 }
 
 .inlasy {
-    padding: 10px;
+    padding: 15px;
 }
 
 img {
